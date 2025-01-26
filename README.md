@@ -2,6 +2,11 @@
 
 This Django project allows users to register with a custom password of their choice. The registration process includes a verification step where a random 4-digit pin is sent to the user's email address. The user must verify the pin to activate their account.
 
+![Login](https://github.com/steve-ongera/Two_AUTH_APPLICATION/blob/main/screenshoots/Authapp_Login.PNG "Login page")
+
+![Register](https://github.com/steve-ongera/Two_AUTH_APPLICATION/blob/main/screenshoots/Authapp_Register.PNG "Register page")
+
+
 ## Features
 - User registration with username, email, and password.
 - Password confirmation to ensure passwords match.
