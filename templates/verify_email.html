@@ -1,0 +1,10 @@
+<h1>Verify Email</h1>
+{% if error %}
+    <p style="color: red;">{{ error }}</p>
+{% endif %}
+<form method="post">
+    {% csrf_token %}
+    <label for="pin">Enter PIN:</label>
+    <input type="text" name="pin" id="pin" required>
+    <button type="submit">Verify</button>
+</form>
